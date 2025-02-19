@@ -1,5 +1,5 @@
 import React from "react";
-import OurServices from "../../components/services";
+import OurServices from "../../components/Services";
 import ContactUs from "../../components/ContactUs";
 import Footer from "../../components/Footer";
 import TopBar from "../../components/TopBar";
