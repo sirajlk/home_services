@@ -1,5 +1,5 @@
 import React from "react";
-import "./Brand.css"; // Import the CSS file for custom animations
+import "./brand.css"; // Import the CSS file for custom animations
 
 export const brands = [
   { name: "google", url: "/assets/images/brand/google.png" },
