@@ -1,0 +1,12 @@
+.words {
+    opacity: 0; /* Initially invisible */
+    transform: translateX(-50px); /* Default off-screen for text */
+    transition: opacity 0.8s ease, transform 1.2s ease;
+  }
+  
+ 
+  
+  .words.visible {
+    opacity: 1; /* Fully visible */
+    transform: translateX(0); /* Slide into place */
+  }

@@ -1,0 +1,14 @@
+/* Add animation styles in a separate CSS file */
+@keyframes scroll {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(-100%);
+    }
+  }
+  
+  .scroll-animation {
+    animation: scroll 25s linear infinite;
+  }
+  

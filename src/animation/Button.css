@@ -1,0 +1,15 @@
+@keyframes gradient-x {
+    0% {
+      background-position: 0% 50%;
+    }
+    100% {
+      background-position: 100% 50%;
+    }
+  }
+  
+  .group-hover\:scale-x-100:hover {
+    animation: gradient-x 1s cubic-bezier(0.86, 0, 0.07, 1) infinite;
+    background-size: 200% 200%;
+
+  }
+  

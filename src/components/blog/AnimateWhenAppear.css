@@ -1,0 +1,10 @@
+.blocks {
+  opacity: 0; /* Initially invisible */
+  transform: translateY(50px); /* Start off the viewport */
+  transition: opacity 0.8s ease-in, transform 1.6s ease; /* Smooth transitions */
+}
+
+.blocks.visible {
+  opacity: 1; /* Fully visible */
+  transform: translateY(0); /* Move to its position */
+}
